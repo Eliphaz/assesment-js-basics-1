@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "git is a version control system that is useful for keeping track of how your project changes over time."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = "github is a cloud storage system for git, it is a good place to store and share code"
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -25,7 +25,7 @@
     It should be a string containing your best definition of what 'git init' does.
 */
 
-//CODE HERE
+let gitInitDefinition = "git init creates a repository in the folder that its invoked in. This will allow you to use git inside a folder"
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -33,7 +33,7 @@
     It should be a string containing your best definition of what 'git clone' does.
 */
 
-//CODE HERE
+let gitCloneDefinition = "git clone creates a clone of a repository. This is useful to make a copy of your own or another persons repo, so you can change or modify it without disrupting the original"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -41,7 +41,7 @@
     It should be a string containing your best definition of what 'git status' does.
 */
 
-//CODE HERE
+let gitStatusDefinition = "git status shows you the current status of your repository. This is useful to see if there are any changes that have not been commited yet"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -52,7 +52,8 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+let gitAddDefinition = "git add will add the given files to the next git commit."
+let gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -63,7 +64,8 @@
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-//CODE HERE
+let gitCommitDefinition = "git commit will save your repository as it is in that moment, you track how your project changes through the different commits that are made"
+let gitCommitCode = "git commit -m 'initial commit'"
 
 
 //////////////////PROBLEM 8////////////////////
@@ -72,4 +74,4 @@
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+let gitPushDefinition = "git push will send all unpushed commits to a external repository. This is how you send things to github, which is usefull if your dog eats your computer"
